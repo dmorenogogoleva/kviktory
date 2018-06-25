@@ -1,0 +1,27 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "mocha": true
+  },
+  "extends": "htmlacademy/es6",
+  "rules": {
+    "strict": 0,
+    "no-undefined": 0,
+    "object-shorthand": 0,
+    "no-var": 0,
+    "one-var": 0,
+    "quotes": 0,
+    "guard-for-in": 0,
+    "consistent-return": 0,
+    "no-shadow": 0,
+    "no-console": "off",
+    "quotes": [
+      "error",
+      "single"
+    ]
+  },
+  "parserOptions": {
+      "sourceType": "module"
+  }
+}
