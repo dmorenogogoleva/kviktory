@@ -210,28 +210,21 @@
     </article>
     <form class="footer-form" action="URL" method="post">
       <h3 class="footer-form__title">Contact form</h3>
-      <div class="footer-form__item1">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" required>
-      </div>
-      <div class="footer-form__item2">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" required>
-      </div>
-      <div class="footer-form__item3">
-        <label for="message">Message</label>
-        <input type="text" name="message" id="message" required>
-      </div>
-      <div class="footer-form__button">
-        <input type="submit" value="Send">
-      </div>
+      <label class="footer-form__item" for="name">
+        <input type="text" name="name" placeholder="Name" id="name" required>
+      </label>
+      <label class="footer-form__item" for="email">
+        <input type="email" name="email" placeholder="Email" id="email" required>
+      </label>
+      <label class="footer-form__item" for="message">
+        <input type="text" name="message" placeholder="Message" id="message" required>
+      </label>
+      <button class="footer-form__button">Send</button>
     </form>
     <nav class="social">
-      <a class="facebook" href="https://www.facebook.com" target="_blank">
-        <img src="./" alt="facebook">
+      <a class="facebook" href="https://www.facebook.com" target="_blank">instagram
       </a>
-      <a class="instagram" href="https://www.instagram.com" target="_blank">
-        <img src="./" alt="instagram">
+      <a class="instagram" href="https://www.instagram.com" target="_blank">faceebook
       </a>
     </nav>
   </footer>
