@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Merriweather-Light;
+    font-style: normal;
+    font-weight: 400;
+    src:url('/fonts/Merriweather-Light.ttf');
+}
+
+body {
+    font-family: Merriweather-Light, arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    width: 1900px; 
+    margin: auto;
+    color: #3c3c3c;
+    text-align: center;
+}
+
+
