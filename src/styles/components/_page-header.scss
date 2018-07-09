@@ -6,7 +6,8 @@
     align-items: flex-end;
 }
 
-.page-header h1 {
+.page-header { 
+    &__title{
     display: flex;
     width: 550px;
     font-size: 40px;
@@ -24,4 +25,5 @@
         top: 140px;
         right: 140px;
     }
+}
 }
