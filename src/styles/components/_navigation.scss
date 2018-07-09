@@ -1,8 +1,5 @@
 .navigation {
     display: flex;
-    justify-content: flex-end;
-    width: 1000px;
-    align-items: flex-start;
     margin-bottom: 100px;
     &__item {
         font-size: 18px;
@@ -10,8 +7,7 @@
         text-decoration: none;
         color: $color-primary;
         margin: 25px;
-        display: block;
-        width: 102px;
+        padding: 5px 28px;
         box-sizing: border-box;
         border: 1px solid transparent;
         &:hover {

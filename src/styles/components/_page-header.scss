@@ -4,12 +4,10 @@
     background-size: cover;
     & .container {
         display: flex;
-        margin: auto;
         flex-direction: column;
         align-items: flex-end;
     }
     &__title {
-        display: flex;
         width: 550px;
         font-size: 40px;
         line-height: 55px;
@@ -23,8 +21,9 @@
             width: 260px;
             height: 33px;
             position: absolute;
+            left: 50%;
             top: 140px;
-            right: 140px;
+            transform: translateX(-50%);
         }
     }
 }
