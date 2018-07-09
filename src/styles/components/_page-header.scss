@@ -1,12 +1,13 @@
 .page-header {
-    display: flex;
-    margin: auto;
+    background-repeat: no-repeat;
     background-image: url("./images/decorative-pumpkins.jpg");
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.page-header {
+    background-size: cover;
+    & .container {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        align-items: flex-end;
+    }
     &__title {
         display: flex;
         width: 550px;
