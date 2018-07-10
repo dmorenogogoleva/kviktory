@@ -1,0 +1,29 @@
+.page-header {
+    background-repeat: no-repeat;
+    background-image: url("./images/decorative-pumpkins.jpg");
+    background-size: cover;
+    & .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__title {
+        width: 550px;
+        font-size: 40px;
+        line-height: 55px;
+        font-weight: normal;
+        margin: 220px;
+        margin-bottom: 420px;
+        position: relative;
+        &::before {
+            content: "";
+            background-image: url("/images/decoration-1.png");
+            width: 260px;
+            height: 33px;
+            position: absolute;
+            left: 50%;
+            top: 140px;
+            transform: translateX(-50%);
+        }
+    }
+}
