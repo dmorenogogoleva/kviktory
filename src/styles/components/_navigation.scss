@@ -1,12 +1,14 @@
 .navigation {
     display: flex;
-    margin-bottom: 100px;
+    padding: 50px 0;
+    width: 850px;
+    justify-content: space-around;
+
     &__item {
         font-size: 18px;
         line-height: 45px;
         text-decoration: none;
         color: $color-primary;
-        margin: 25px;
         padding: 5px 28px;
         box-sizing: border-box;
         border: 1px solid transparent;
