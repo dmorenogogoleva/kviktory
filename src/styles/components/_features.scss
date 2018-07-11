@@ -1,0 +1,61 @@
+.features {
+  background-image: url("./images/yellow.jpg");
+  display: flex;
+  justify-content: space-around;
+  &__item {
+    width: 450px;
+    margin: 80px;
+    margin-top: 150px;
+  }
+  &__item_turnip {
+    position: relative;
+    ::before {
+      content: "";
+      background-image: url("/images/noodle.png");
+      background-repeat: no-repeat;
+      width: 85px;
+      height: 80px;
+      position: absolute;
+      left: 50%;
+      bottom: 140px;
+      transform: translateX(-50%);
+    }
+  }
+  &__item_water {
+    position: relative;
+    &::before {
+      content: "";
+      background-image: url("/images/Tea.png");
+      background-repeat: no-repeat;
+      width: 105px;
+      height: 80px;
+      position: absolute;
+      left: 50%;
+      bottom: 140px;
+      transform: translateX(-50%);
+    }
+  }
+  &__item_social {
+    position: relative;
+    &::before {
+      content: "";
+      background-image: url("/images/sweet.png");
+      background-repeat: no-repeat;
+      width: 75px;
+      height: 80px;
+      position: absolute;
+      left: 50%;
+      bottom: 140px;
+      transform: translateX(-50%);
+    }
+  }
+  &__title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bolder;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
