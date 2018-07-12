@@ -9,7 +9,7 @@
   }
   &__item_turnip {
     position: relative;
-    ::before {
+    &::before {
       content: "";
       background-image: url("/images/noodle.png");
       background-repeat: no-repeat;
@@ -17,7 +17,7 @@
       height: 80px;
       position: absolute;
       left: 50%;
-      bottom: 140px;
+      top: -85px;
       transform: translateX(-50%);
     }
   }
@@ -25,13 +25,13 @@
     position: relative;
     &::before {
       content: "";
-      background-image: url("/images/Tea.png");
+      background-image: url("/images/tea.png");
       background-repeat: no-repeat;
       width: 105px;
       height: 80px;
       position: absolute;
       left: 50%;
-      bottom: 140px;
+      top: -85px;
       transform: translateX(-50%);
     }
   }
@@ -45,14 +45,14 @@
       height: 80px;
       position: absolute;
       left: 50%;
-      bottom: 140px;
+      top: -85px;
       transform: translateX(-50%);
     }
   }
   &__title {
     font-size: 18px;
     line-height: 30px;
-    font-weight: bolder;
+    font-weight: 700;
   }
   &__text {
     font-size: 16px;
