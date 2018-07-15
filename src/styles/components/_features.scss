@@ -15,10 +15,10 @@
     position: relative;
     &::before {
       content: "";
-      background-image: url("/images/spritesheet.png");
-      background-position: -5px -5px;
-      width: 85px;
-      height: 80px;
+      background-image: url("/images/sprites-image.png");
+      background-position: -10px -151px;
+      width: 87px;
+      height: 79px;
       position: absolute;
       left: 50%;
       top: -92px;
@@ -29,10 +29,10 @@
     position: relative;
     &::before {
       content: "";
-      background-image: url("/images/spritesheet.png");
-      background-position: -102px -91px;
-      width: 105px;
-      height: 80px;
+      background-image: url("/images/sprites-image.png");
+      background-position: -10px -63px;
+      width: 106px;
+      height: 68px;
       position: absolute;
       left: 50%;
       top: -85px;
@@ -43,10 +43,10 @@
     position: relative;
     &::before {
       content: "";
-      background-image: url("/images/spritesheet.png");
-      background-position: -102px -5px;
-      width: 75px;
-      height: 80px;
+      background-image: url("/images/sprites-image.png");
+      background-position: -117px -151px;
+      width: 64px;
+      height: 76px;
       position: absolute;
       left: 50%;
       top: -90px;

@@ -17,8 +17,9 @@
     position: relative;
     &::before {
       content: "";
-      background-image: url("/images/decoration-1.png");
-      width: 253px;
+      background-image: url("/images/sprites-image.png");
+      background-position: -10px -10px;
+      width: 255px;
       height: 33px;
       position: absolute;
       left: 50%;
