@@ -1,23 +1,27 @@
 .features {
   background-image: url("./images/yellow.jpg");
-  display: flex;
-  justify-content: space-around;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 82%;
+  }
   &__item {
     width: 450px;
-    margin: 80px;
-    margin-top: 150px;
+    margin-top: 160px;
+    margin-bottom: 68px;
   }
   &__item_turnip {
     position: relative;
     &::before {
       content: "";
-      background-image: url("/images/noodle.png");
-      background-repeat: no-repeat;
-      width: 85px;
-      height: 80px;
+      background-image: url("/images/sprites-image.png");
+      background-position: -10px -151px;
+      width: 87px;
+      height: 79px;
       position: absolute;
       left: 50%;
-      top: -85px;
+      top: -92px;
       transform: translateX(-50%);
     }
   }
@@ -25,10 +29,10 @@
     position: relative;
     &::before {
       content: "";
-      background-image: url("/images/tea.png");
-      background-repeat: no-repeat;
-      width: 105px;
-      height: 80px;
+      background-image: url("/images/sprites-image.png");
+      background-position: -10px -63px;
+      width: 106px;
+      height: 68px;
       position: absolute;
       left: 50%;
       top: -85px;
@@ -39,13 +43,13 @@
     position: relative;
     &::before {
       content: "";
-      background-image: url("/images/sweet.png");
-      background-repeat: no-repeat;
-      width: 75px;
-      height: 80px;
+      background-image: url("/images/sprites-image.png");
+      background-position: -117px -151px;
+      width: 64px;
+      height: 76px;
       position: absolute;
       left: 50%;
-      top: -85px;
+      top: -90px;
       transform: translateX(-50%);
     }
   }
@@ -56,6 +60,6 @@
   }
   &__text {
     font-size: 16px;
-    line-height: 18px;
+    line-height: 25px;
   }
 }

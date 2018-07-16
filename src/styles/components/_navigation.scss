@@ -1,14 +1,16 @@
 .navigation {
   display: flex;
-  padding: 50px 0;
-  width: 850px;
+  padding: 53px 0;
+  width: 600px;
   justify-content: space-around;
+  margin-right: 147px;
   &__item {
     font-size: 18px;
-    line-height: 45px;
+    line-height: 38px;
     text-decoration: none;
     color: $color-primary;
-    padding: 5px 28px;
+    font-weight: 700;
+    padding: 5px 22px;
     box-sizing: border-box;
     border: 1px solid transparent;
     &:hover {
