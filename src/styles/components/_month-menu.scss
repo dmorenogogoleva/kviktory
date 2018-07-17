@@ -1,0 +1,64 @@
+.month-menu {
+  &__caption {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 300;
+    position: relative;
+    margin: 70px 90px 110px 86px;
+    letter-spacing: -1px;
+    &::before {
+      content: "";
+      background-image: url("/images/sprites-image.png");
+      background-position: -10px -10px;
+      width: 255px;
+      height: 33px;
+      position: absolute;
+      left: 50%;
+      top: 75px;
+      transform: translateX(-50%)
+    }
+  }
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+    margin: 0px 208px 105px 208px;
+  }
+  &__item {
+    display: flex;
+    &-description {
+      display: flex;
+      flex-direction: column;
+      width: 248px;
+      background-color: #f8f8f8;
+      justify-content: center;
+    }
+  }
+  &__title {
+    position: relative;
+    margin-top: 35px;
+    font-size: 18px;
+    line-height: 30px;
+    &::before {
+      content: "";
+      background-image: url("./images/Line.png");
+      width: 88px;
+      height: 1px;
+      position: absolute;
+      top: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  &__text {
+    margin-bottom: -5px;
+    margin-top: -1px;
+    line-height: 25px;
+  }
+  &__price {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
