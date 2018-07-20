@@ -1,10 +1,8 @@
 .features {
   background-image: url("./images/yellow.jpg");
-  &__container {
+  & .container {
     display: flex;
     justify-content: space-between;
-    margin: auto;
-    width: 82%;
   }
   &__item {
     width: 450px;
