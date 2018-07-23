@@ -1,10 +1,8 @@
 .features {
   background-image: url("./images/yellow.jpg");
-  &__container {
+  & .container {
     display: flex;
     justify-content: space-between;
-    margin: auto;
-    width: 82%;
   }
   &__item {
     width: 450px;
@@ -15,7 +13,7 @@
     position: relative;
     &::before {
       content: "";
-      background-image: url("/images/sprites-image.png");
+      background-image: url("./images/sprites-image.png");
       background-position: -10px -151px;
       width: 87px;
       height: 79px;
@@ -29,7 +27,7 @@
     position: relative;
     &::before {
       content: "";
-      background-image: url("/images/sprites-image.png");
+      background-image: url("./images/sprites-image.png");
       background-position: -10px -63px;
       width: 106px;
       height: 68px;
@@ -43,7 +41,7 @@
     position: relative;
     &::before {
       content: "";
-      background-image: url("/images/sprites-image.png");
+      background-image: url("./images/sprites-image.png");
       background-position: -117px -151px;
       width: 64px;
       height: 76px;
