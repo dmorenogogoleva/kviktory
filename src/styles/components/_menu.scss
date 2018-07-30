@@ -1,0 +1,20 @@
+.menu {
+  padding: 25px 0 35px;
+  &__title {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 500;
+    position: relative;
+    &::before {
+      content: "";
+      background-image: url("./images/sprites-image.png");
+      background-position: -10px -10px;
+      width: 255px;
+      height: 33px;
+      position: absolute;
+      top: 74px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
