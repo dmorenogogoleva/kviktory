@@ -2,4 +2,49 @@
   background-image: url("./images/Background\ copy\ 2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  & .container {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    margin-right: 215px;
+    padding-bottom: 280px;
+  }
+  &__title {
+    width: 548px;
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 500;
+    margin: 77px 0px 100px 17px;
+    position: relative;
+    &::before {
+      content: "";
+      background-image: url("/images/sprites-image.png");
+      background-position: -10px -10px;
+      width: 255px;
+      height: 33px;
+      position: absolute;
+      left: 50%;
+      top: 75px;
+      transform: translateX(-50%);
+    }
+  }
+  & .contact {
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    margin-bottom: 62px;
+    &__item {
+      width: 200px;
+    }
+    &__title {
+      line-height: 8px;
+    }
+    &__text {
+      line-height: 22px;
+      font-weight: 700;
+    }
+  }
 }
+
+
+

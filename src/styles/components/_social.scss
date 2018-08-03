@@ -1,0 +1,36 @@
+.social {
+  display: flex;
+  justify-content: space-around;
+  width: 115px;
+  margin-left: 500px;
+  &__facebook {
+    position: relative;
+    &::before {
+      content: "";
+      background-image: url("./images/sprites-image.png");
+      background-position: -161px -50px;
+      width: 47px;
+      height: 47px;
+      position: absolute;
+      top: 188px;
+      left: 50%;
+      transform: translateX(-145%);
+      border: 1px solid #000000;
+    }
+  }
+  &__instagram {
+    position: relative;
+    &::before {
+      content: "";
+      background-image: url("./images/sprites-image.png");
+      background-position: -124px -50px;
+      width: 47px;
+      height: 47px;
+      position: absolute;
+      top: 188px;
+      left: 50%;
+      transform: translateX(-130%);
+      border: 1px solid #000000;
+    }
+  }
+}
