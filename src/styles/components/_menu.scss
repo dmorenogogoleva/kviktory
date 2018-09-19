@@ -7,7 +7,7 @@
     position: relative;
     &::before {
       content: "";
-      background-image: url("./images/sprites-image.png");
+      background-image: url("/images/sprites-image.png");
       background-position: -10px -10px;
       width: 255px;
       height: 33px;
