@@ -2,18 +2,22 @@
   background-repeat: no-repeat;
   background-image: url("/images/bg-fruits.jpg");
   background-size: cover;
+  padding: 60px 0 0 0;
   & .container {
     display: flex;
     flex-direction: column;
-    margin-left: 455px;
+    width: 580px;
+    margin: 0 205px 0 auto;
   }
   &__title {
-    width: 548px;
     font-size: 40px;
     line-height: 55px;
     font-weight: 500;
     letter-spacing: -1px;
-    margin: 77px 0px 95px 680px;
+    align-self: flex-start;
+    margin: 0;
+    margin-bottom: 95px;
+    margin-left: 215px;
     position: relative;
     &::before {
       content: "";
@@ -22,24 +26,9 @@
       width: 255px;
       height: 33px;
       position: absolute;
-      left: 50%;
       top: 74px;
+      left: 50%;
       transform: translateX(-50%);
     }
-  }
-}
-
-.contact {
-  display: flex;
-  justify-content: space-around;
-  text-align: start;
-  padding-left: 588px;
-  padding-right: 192px;
-  margin-bottom: 62px;
-  &__item {
-    width: 200px;
-  }
-  &__text {
-    line-height: 24px;
   }
 }
