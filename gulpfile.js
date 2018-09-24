@@ -28,7 +28,7 @@ gulp.task('style', function () {
 			mqpacker({ sort: true })
 		]))
 		.pipe(browserSync.stream())
-		.pipe(minify())
+		// .pipe(minify())
 		.pipe(gulp.dest('build'));
 });
 
@@ -89,7 +89,7 @@ gulp.task('serve', function () {
 
 
 	gulp.watch('src/scripts/**/*.js').on('change', () => {
-		gulp.start('scripts');		
+		gulp.start('scripts');
 		browserSync.reload();
 	});
 
