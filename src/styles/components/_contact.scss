@@ -1,12 +1,11 @@
 .contact {
   display: flex;
-  justify-content: space-around;
-  text-align: start;
-  padding-left: 588px;
-  padding-right: 192px;
-  margin-bottom: 62px;
+  justify-content: space-between;
+  margin-bottom: 64px;
+
   &__item {
-    width: 200px;
+    text-align: left;
+    width: 220px;
   }
   &__text {
     line-height: 24px;
