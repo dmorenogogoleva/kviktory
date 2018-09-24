@@ -1,5 +1,45 @@
 .page-footer {
-  background-image: url("./images/Background\ copy\ 2.jpg");
   background-repeat: no-repeat;
+  background-image: url("/images/bg-fruits.jpg");
   background-size: cover;
+  & .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 455px;
+  }
+  &__title {
+    width: 548px;
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin: 77px 0px 95px 680px;
+    position: relative;
+    &::before {
+      content: "";
+      background-image: url("/images/sprites-image.png");
+      background-position: -10px -10px;
+      width: 255px;
+      height: 33px;
+      position: absolute;
+      left: 50%;
+      top: 74px;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  text-align: start;
+  padding-left: 588px;
+  padding-right: 192px;
+  margin-bottom: 62px;
+  &__item {
+    width: 200px;
+  }
+  &__text {
+    line-height: 24px;
+  }
 }
