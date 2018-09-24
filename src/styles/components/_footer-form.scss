@@ -1,10 +1,8 @@
 .footer-form {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: 230px;
-  margin-bottom: 195px;
+  margin-bottom: 194px;
     &__title {
       text-align: start;
+      margin-bottom: 30px;
     }
     & .contact {
       display: flex;
@@ -28,8 +26,11 @@
     &__block {
       display: flex;
       justify-content: space-between;
-      padding-top: 11px;
-      padding-bottom: 62px;
+      margin-bottom: 7px;
+    }
+    &__item {
+      margin-bottom: 53px;
+      display: block;
     }
     & .message {
       width: 560px;
@@ -44,7 +45,5 @@
       font-family: $font-family-primary;
       font-weight: 600;
       cursor: pointer;
-      margin-top: 55px;
-      margin-right: 22px;
     }
   }
